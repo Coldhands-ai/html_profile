@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <link rel="stylesheet" href="styles/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="profile-header">
+      <div class="header-gradient"></div>
+
+      <div class="header-content">
+        <img src="img/av.jpg" alt="profile_photo" class="avatar" />
+
+        <div class="user-info">
+          <h1>Power</h1>
+
+          <div class="short-info">
+            <a href="#" title="Copy link" class="username">@power_dev</a>
+            <p class="status">🟢 В сети</p>
+          </div>
+
+          <div class="stats">
+            <span><strong>12</strong> постов</span>
+            <span><strong>753</strong> подписчиков</span>
+            <span><strong>76</strong> подписок</span>
+          </div>
+        </div>
+
+        <div class="header-actions">
+          <button class="btn-edit">
+            <i class="fa-solid fa-pen"></i>Редактировать
+          </button>
+          <button class="btn-notifications" title="Уведомления">
+            <i class="fa-solid fa-bell"></i>
+          </button>
+          <button class="btn-exit" title="Выход">
+            <i class="fa-solid fa-right-from-bracket"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="profile-main">
+      <nav class="sidebar-nav">
+        <div class="nav-header">
+          <h3>Меню</h3>
+        </div>
+
+        <ul class="nav-menu">
+          <li>
+            <a href="#" class="active"
+              ><i class="fa-solid fa-house"></i>Главная</a
+            >
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-user"></i>Профиль</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-gear"></i>Настройки</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-users"></i>Друзья</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-message"></i>Сообщения</a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-solid fa-chart-simple"></i>Статистика</a>
+          </li>
+        </ul>
+      </nav>
+
+      <section class="main-content">
+        <div class="card about-card">
+          <h2>О себе</h2>
+
+          <p class="about-me">
+            Привет! Я студент второго курса по направлению "Разработчик
+            программного обеспечения". Недавно начал обучаться созданию
+            современных веб-приложений. Теперь увлекаюсь frontend-разработкой,
+            UI/UX дизайном и всем, что связано с технологиями.
+          </p>
+
+          <div class="tags">
+            <span class="tag tag1">JS + TS</span>
+            <span class="tag tag2">React</span>
+            <span class="tag tag3">CSS</span>
+            <span class="tag tag4">C#</span>
+            <span class="tag tag5">Игры</span>
+            <span class="tag tag6">Сериалы</span>
+            <span class="tag tag7">Флекс</span>
+          </div>
+        </div>
+
+        <div class="card achievments-card">
+          <h2>Достижения</h2>
+
+          <div class="achievements-scroll">
+            <div class="achievements-item">
+              <div class="achievements-icon">👣</div>
+
+              <h3>Первые шаги</h3>
+
+              <p>1000+ строк кода</p>
+            </div>
+
+            <div class="achievements-item">
+              <div class="achievements-icon">🎮</div>
+
+              <h3>Задрот</h3>
+
+              <p>5000+ часов в одной игре</p>
+            </div>
+
+            <div class="achievements-item">
+              <div class="achievements-icon">🚀</div>
+
+              <h3>Быстрые руки</h3>
+
+              <p>200+ знаков в минуту</p>
+            </div>
+
+            <div class="achievements-item">
+              <div class="achievements-icon">💎</div>
+
+              <h3>Премиум</h3>
+
+              <p>Персона со статусом VIP</p>
+            </div>
+
+            <div class="achievements-item">
+              <div class="achievements-icon">🧠</div>
+
+              <h3>Эрудит</h3>
+
+              <p>Победил в QuizPLZ</p>
+            </div>
+
+            <div class="achievements-item">
+              <div class="achievements-icon">😶‍🌫️</div>
+
+              <h3>Любитель ванной</h3>
+
+              <p>Провалялся в ванной больше 2-х часов</p>
+            </div>
+
+            <div class="achievements-item">
+              <div class="achievements-icon">🦉</div>
+
+              <h3>Сова</h3>
+
+              <p>Активничает ночью</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card activity-card">
+          <h2>Последняя активность</h2>
+
+          <div class="activity-list">
+            <article class="activity-item">
+              <div class="activity-icon">📝</div>
+
+              <div class="activity-content">
+                <p class="activity-text">
+                  Опубликовал новый пост "Как создать современный профиль".
+                </p>
+                <span class="activity-time">2 часа назад</span>
+              </div>
+            </article>
+
+            <article class="activity-item">
+              <div class="activity-icon">❤️</div>
+
+              <div class="activity-content">
+                <p class="activity-text">Лайкнул пост из категории "Дизайн".</p>
+                <span class="activity-time">5 часов назад</span>
+              </div>
+            </article>
+
+            <article class="activity-item">
+              <div class="activity-icon">💬</div>
+
+              <div class="activity-content">
+                <p class="activity-text">
+                  Оставил комментарий под постом "Играть, чтобы жить".
+                </p>
+                <span class="activity-time">1 день назад</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <aside class="right-sidebar">
+        <div class="card friends-card">
+          <h2>Друзья</h2>
+
+          <div class="friends-list">
+            <div class="friend-item">
+              <div class="friend-avatar">
+                <img src="img/denji.jpg" alt="Friend" />
+                <span class="status-indicator online"></span>
+              </div>
+
+              <div class="friend-info">
+                <p class="friend-name">Дензи</p>
+                <span class="friend-status">В сети</span>
+              </div>
+            </div>
+
+            <div class="friend-item">
+              <div class="friend-avatar">
+                <img src="img/makima.jpg" alt="Friend" />
+                <span class="status-indicator online"></span>
+              </div>
+
+              <div class="friend-info">
+                <p class="friend-name">Макима</p>
+                <span class="friend-status">В сети</span>
+              </div>
+            </div>
+
+            <div class="friend-item">
+              <div class="friend-avatar">
+                <img src="img/reze.jpg" alt="Friend" />
+                <span class="status-indicator offline"></span>
+              </div>
+
+              <div class="friend-info">
+                <p class="friend-name">Резе</p>
+                <span class="friend-status">Не в сети</span>
+              </div>
+            </div>
+
+            <div class="friend-item">
+              <div class="friend-avatar">
+                <img src="img/alpha.jpg" alt="Friend" />
+                <span class="status-indicator online"></span>
+              </div>
+
+              <div class="friend-info">
+                <p class="friend-name">Альфа</p>
+                <span class="friend-status">В сети</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </aside>
+    </main>
+
+    <footer class="profile-footer">
+      <div class="footer-content">
+        <p class="footer-copyright">
+          © 2026 Power Profile. Все права защищены.
+        </p>
+
+        <div class="footer-links">
+          <a href="#">О проекте</a>
+          <a href="#">Помощь</a>
+          <a href="#">Контакты</a>
+        </div>
+
+        <div class="footer-socials">
+          <a
+            href="https://github.com/Coldhands-ai"
+            title="GitHub"
+            target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://discordapp.com/users/493122348455821313/"
+            title="Discord"
+            target="_blank"
+            ><i class="fa-brands fa-discord"></i
+          ></a>
+          <a href="https://t.me/Ne_cl0wn" title="Telegram" target="_blank"
+            ><i class="fa-brands fa-telegram"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="scripts/scroll.js"></script>
+  </body>
+</html>
